@@ -53,11 +53,11 @@ Modus imports the generated scanned models initializing a rigid test structure m
 ![Modus Test Summary Output](images/modus_2.png)
 *Figure: Generation tracking iterations and Modus coverage log output, capturing complete arrays scaling logically unifiable vs detectable configurations.*
 
-![Modus Detailed Coverage Log](images/modus_image.png)
-*Figure: Summarized switching statistics and detailed fault metrics breakdown against total potential generated vectors mapping out test sequence percentages.*
-
-![Modus GUI Validation](images/Screenshot%20from%202026-04-16%2013-28-44.png)
+![Modus GUI Validation](images/modus_image.png)
 *Figure: Modus GUI structural visualization representing internal node nets bridging between input sequences.*
+
+![Modus Detailed Coverage Log](images/Screenshot%20from%202026-04-16%2013-28-44.png)
+*Figure: Summarized switching statistics and detailed fault metrics breakdown against total potential generated vectors mapping out test sequence percentages.*
 
 ---
 
