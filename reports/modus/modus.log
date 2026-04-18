@@ -1,0 +1,15 @@
+
+ 
+Copyright (C) 2002-2020 Cadence Design Systems Inc. All Rights Reserved. 
+Cadence and the Cadence logo are registered trademarks and Modus is a trademark 
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+Type 'help legal_notices' for third party license notices. 
+Version : 20.12-s002_1, built Feb 26 2021 (linux26_64)
+Options : 
+Date    : Thu, April 16 14:02:05 2026
+Host    : vlsi-5.iiitk.ac.in (x86_64 Linux 3.10.0-1160.el7.x86_64) (6*Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz 12288KB)
+OS      : Red Hat Enterprise Linux Server release 7.9 (Maipo)
+@modus:root:/ 1> -file ./runmodus.atpg.tcl
+invalid command name "-file"
+@modus:root:/ 2> exit

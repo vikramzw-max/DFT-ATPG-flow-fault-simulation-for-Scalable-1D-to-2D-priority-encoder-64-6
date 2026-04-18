@@ -1,0 +1,89 @@
+VERSION 5.5 ;
+NAMESCASESENSITIVE ON ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN pe64_top ;
+
+SCANCHAINS 1 ;
+  - chain1_seg1_clk_test_rising 
+    + PARTITION p_clk_test_rising 
+      MAXBITS 72
+    + START PIN scan_in
+    + FLOATING 
+       d_s1_reg[0] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[1] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[2] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[3] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[4] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[5] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[6] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[7] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[8] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[9] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[10] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[11] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[12] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[13] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[14] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[15] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[16] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[17] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[18] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[19] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[20] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[21] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[22] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[23] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[24] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[25] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[26] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[27] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[28] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[29] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[30] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[31] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[32] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[33] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[34] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[35] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[36] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[37] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[38] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[39] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[40] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[41] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[42] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[43] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[44] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[45] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[46] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[47] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[48] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[49] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[50] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[51] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[52] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[53] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[54] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[55] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[56] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[57] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[58] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[59] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[60] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[61] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[62] ( IN SI ) ( OUT Q ) 
+       d_s1_reg[63] ( IN SI ) ( OUT Q ) 
+       en_s1_reg ( IN SI ) ( OUT QN ) 
+       q_reg[0] ( IN SI ) ( OUT Q ) 
+       q_reg[1] ( IN SI ) ( OUT Q ) 
+       q_reg[2] ( IN SI ) ( OUT Q ) 
+       q_reg[3] ( IN SI ) ( OUT Q ) 
+       q_reg[4] ( IN SI ) ( OUT Q ) 
+       q_reg[5] ( IN SI ) ( OUT Q ) 
+       v_reg ( IN SI ) ( OUT Q ) 
+    + STOP PIN scan_out
+;
+
+END SCANCHAINS 
+END DESIGN 

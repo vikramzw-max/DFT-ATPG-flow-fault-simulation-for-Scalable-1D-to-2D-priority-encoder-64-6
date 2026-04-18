@@ -1,0 +1,82 @@
+Reporting 1 scan chain (muxed_scan)
+ 
+Chain 1: chain1 
+  scan_in:      scan_in 
+  scan_out:     scan_out   
+  shift_enable: scan_en (active high) 
+  clock_domain: clk_test (edge: rise)
+  length: 72
+    bit 1 	d_s1_reg[0]  <clk (rise)>  
+    bit 2 	d_s1_reg[1]  <clk (rise)>  
+    bit 3 	d_s1_reg[2]  <clk (rise)>  
+    bit 4 	d_s1_reg[3]  <clk (rise)>  
+    bit 5 	d_s1_reg[4]  <clk (rise)>  
+    bit 6 	d_s1_reg[5]  <clk (rise)>  
+    bit 7 	d_s1_reg[6]  <clk (rise)>  
+    bit 8 	d_s1_reg[7]  <clk (rise)>  
+    bit 9 	d_s1_reg[8]  <clk (rise)>  
+    bit 10 	d_s1_reg[9]  <clk (rise)>  
+    bit 11 	d_s1_reg[10]  <clk (rise)>  
+    bit 12 	d_s1_reg[11]  <clk (rise)>  
+    bit 13 	d_s1_reg[12]  <clk (rise)>  
+    bit 14 	d_s1_reg[13]  <clk (rise)>  
+    bit 15 	d_s1_reg[14]  <clk (rise)>  
+    bit 16 	d_s1_reg[15]  <clk (rise)>  
+    bit 17 	d_s1_reg[16]  <clk (rise)>  
+    bit 18 	d_s1_reg[17]  <clk (rise)>  
+    bit 19 	d_s1_reg[18]  <clk (rise)>  
+    bit 20 	d_s1_reg[19]  <clk (rise)>  
+    bit 21 	d_s1_reg[20]  <clk (rise)>  
+    bit 22 	d_s1_reg[21]  <clk (rise)>  
+    bit 23 	d_s1_reg[22]  <clk (rise)>  
+    bit 24 	d_s1_reg[23]  <clk (rise)>  
+    bit 25 	d_s1_reg[24]  <clk (rise)>  
+    bit 26 	d_s1_reg[25]  <clk (rise)>  
+    bit 27 	d_s1_reg[26]  <clk (rise)>  
+    bit 28 	d_s1_reg[27]  <clk (rise)>  
+    bit 29 	d_s1_reg[28]  <clk (rise)>  
+    bit 30 	d_s1_reg[29]  <clk (rise)>  
+    bit 31 	d_s1_reg[30]  <clk (rise)>  
+    bit 32 	d_s1_reg[31]  <clk (rise)>  
+    bit 33 	d_s1_reg[32]  <clk (rise)>  
+    bit 34 	d_s1_reg[33]  <clk (rise)>  
+    bit 35 	d_s1_reg[34]  <clk (rise)>  
+    bit 36 	d_s1_reg[35]  <clk (rise)>  
+    bit 37 	d_s1_reg[36]  <clk (rise)>  
+    bit 38 	d_s1_reg[37]  <clk (rise)>  
+    bit 39 	d_s1_reg[38]  <clk (rise)>  
+    bit 40 	d_s1_reg[39]  <clk (rise)>  
+    bit 41 	d_s1_reg[40]  <clk (rise)>  
+    bit 42 	d_s1_reg[41]  <clk (rise)>  
+    bit 43 	d_s1_reg[42]  <clk (rise)>  
+    bit 44 	d_s1_reg[43]  <clk (rise)>  
+    bit 45 	d_s1_reg[44]  <clk (rise)>  
+    bit 46 	d_s1_reg[45]  <clk (rise)>  
+    bit 47 	d_s1_reg[46]  <clk (rise)>  
+    bit 48 	d_s1_reg[47]  <clk (rise)>  
+    bit 49 	d_s1_reg[48]  <clk (rise)>  
+    bit 50 	d_s1_reg[49]  <clk (rise)>  
+    bit 51 	d_s1_reg[50]  <clk (rise)>  
+    bit 52 	d_s1_reg[51]  <clk (rise)>  
+    bit 53 	d_s1_reg[52]  <clk (rise)>  
+    bit 54 	d_s1_reg[53]  <clk (rise)>  
+    bit 55 	d_s1_reg[54]  <clk (rise)>  
+    bit 56 	d_s1_reg[55]  <clk (rise)>  
+    bit 57 	d_s1_reg[56]  <clk (rise)>  
+    bit 58 	d_s1_reg[57]  <clk (rise)>  
+    bit 59 	d_s1_reg[58]  <clk (rise)>  
+    bit 60 	d_s1_reg[59]  <clk (rise)>  
+    bit 61 	d_s1_reg[60]  <clk (rise)>  
+    bit 62 	d_s1_reg[61]  <clk (rise)>  
+    bit 63 	d_s1_reg[62]  <clk (rise)>  
+    bit 64 	d_s1_reg[63]  <clk (rise)>  
+    bit 65 	en_s1_reg  <clk (rise)>  
+    bit 66 	q_reg[0]  <clk (rise)>  
+    bit 67 	q_reg[1]  <clk (rise)>  
+    bit 68 	q_reg[2]  <clk (rise)>  
+    bit 69 	q_reg[3]  <clk (rise)>  
+    bit 70 	q_reg[4]  <clk (rise)>  
+    bit 71 	q_reg[5]  <clk (rise)>  
+    bit 72 	v_reg  <clk (rise)>  
+------------------------
+
